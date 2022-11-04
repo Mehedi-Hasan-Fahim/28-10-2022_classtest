@@ -1,3 +1,65 @@
+//initialising a variable name data
+var data = 0;
+  
+//printing default value of data that is 0 in h2 tag
+document.getElementById("counting").innerText = data;
+
+//creation of increment function
+function increment() {
+    data = data + 1;
+    document.getElementById("counting").innerText = data;
+}
+//creation of decrement function
+function decrement() {
+    data = data - 1;
+    if(data<0){
+      data=0;
+      document.getElementById("counting").innerText = data;
+      }
+    document.getElementById("counting").innerText = data;
+}
+
+var data2 = 0;
+  
+//printing default value of data that is 0 in h2 tag
+document.getElementById("counting2").innerText = data2;
+
+//creation of increment function
+function increment2() {
+    data2 = data2 + 1;
+    document.getElementById("counting2").innerText = data2;
+}
+//creation of decrement function
+function decrement2() {
+    data2 = data2 - 1;
+    if(data2<0){
+      data2=0;
+      document.getElementById("counting2").innerText = data2;
+      }
+    document.getElementById("counting2").innerText = data2;
+}
+
+var data3 = 0;
+  
+//printing default value of data that is 0 in h2 tag
+document.getElementById("counting3").innerText = data3;
+
+//creation of increment function
+function increment3() {
+    data3 = data3 + 1;
+    document.getElementById("counting3").innerText = data3;
+}
+//creation of decrement function
+function decrement3() {
+    data3 = data3 - 1;
+    if(data3<0){
+      data3=0;
+      document.getElementById("counting3").innerText = data3;
+      }
+    document.getElementById("counting3").innerText = data3;
+}
+
+//my wrong attempt section 
 /*const navorder = document.querySelector('.navorder');
 
 document.querySelector('.order_food').onclick = () =>{
@@ -62,63 +124,6 @@ updateButton.onclick = () => {
   showNumberP.textContent = currentNumber;
 }*/
 
-//initialising a variable name data
-var data = 0;
-  
-//printing default value of data that is 0 in h2 tag
-document.getElementById("counting").innerText = data;
 
-//creation of increment function
-function increment() {
-    data = data + 1;
-    document.getElementById("counting").innerText = data;
-}
-//creation of decrement function
-function decrement() {
-    data = data - 1;
-    if(data<0){
-      data=0;
-      document.getElementById("counting").innerText = data;
-      }
-    document.getElementById("counting").innerText = data;
-}
 
-var data2 = 0;
-  
-//printing default value of data that is 0 in h2 tag
-document.getElementById("counting2").innerText = data2;
 
-//creation of increment function
-function increment2() {
-    data2 = data2 + 1;
-    document.getElementById("counting2").innerText = data2;
-}
-//creation of decrement function
-function decrement2() {
-    data2 = data2 - 1;
-    if(data2<0){
-      data2=0;
-      document.getElementById("counting2").innerText = data2;
-      }
-    document.getElementById("counting2").innerText = data2;
-}
-
-var data3 = 0;
-  
-//printing default value of data that is 0 in h2 tag
-document.getElementById("counting3").innerText = data3;
-
-//creation of increment function
-function increment3() {
-    data3 = data3 + 1;
-    document.getElementById("counting3").innerText = data3;
-}
-//creation of decrement function
-function decrement3() {
-    data3 = data3 - 1;
-    if(data3<0){
-      data3=0;
-      document.getElementById("counting3").innerText = data3;
-      }
-    document.getElementById("counting3").innerText = data3;
-}
