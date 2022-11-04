@@ -1,0 +1,363 @@
+
+*{
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif;
+}
+
+.badge:after{
+    content:attr(value);
+    font-size:12px;
+    color: #fff;
+    background: red;
+    border-radius:50%;
+    padding: 0 5px;
+    position:relative;
+    left:-8px;
+    top:-10px;
+    opacity:1;
+    height: 30px;
+}
+.fa-lg{
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    float: right;
+  }
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navcontent a{
+   text-decoration: none;
+}
+
+.user_name{
+    font-size: 1.3rem;
+}
+.description{
+    
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f7bb0afd;
+    position: sticky;
+    padding: 10px;
+    font-size: 1.5rem;
+     
+ }
+ .navcontent{
+   display: flex;
+   justify-content: space-between;
+   padding-left: 30px;
+ }
+ .nav_order{
+   padding-right:20px ;
+ }
+ .nav_review{
+   padding-right:20px ;
+ }
+ .nav_contact{
+   padding-right:20px ;
+ }
+.user_name{
+   float: right;
+   margin-right: 5px;
+   margin-left: 780px;
+   
+}
+
+ h1{
+    text-align: center;
+    font-size: 4rem;
+}
+ .order_food_section{
+    background-color: brown;
+    color: white;
+    padding: 2rem;
+  
+}
+.pic{
+   height: 200px;
+   width: 300px;
+}
+.btn{
+  width: 40px;
+  height:40px;
+  font-size: 2rem;
+  display: flex;
+  margin-top: 40px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-left: 10px;
+  
+ }
+.int{
+  width: 40px;
+  height:40px;
+  font-size: 2rem;
+  margin-top: 48px;
+  margin-left: 15px;
+  padding-left: 10px;
+  }
+ .review_title{
+   text-align: center;
+   font-size: 2.5rem;
+   font-weight: 300;
+ }
+ .review_section {
+   background-color: #f9cedd;
+ }
+ .review1{
+   display: flex;
+   padding-left: 5%;
+   padding-right: 5%;
+   justify-content: space-between;
+ }
+ .review2{
+   display: flex;
+   padding-left: 5%;
+   padding-right: 5%;
+   justify-content: space-between;
+ }
+ .review3{
+   display: flex;
+   padding-left: 5%;
+   padding-right: 5%;
+   justify-content: space-between;
+ }
+ .review_chicken{
+   text-align: center;
+   font-size: 2.5rem;
+ }
+ .footer{
+   font-size: 2rem;
+ }
+ html{
+   scroll-behavior: smooth;
+ }
+ footer{
+   float: left;
+   margin-top: 30px;
+   margin-left: 400;
+   margin-bottom: 20px;
+   margin-right: 20px;
+   
+}
+.content{
+  display: flex;
+  }
+.Chicken_Biriyani{
+  display: flex;
+  padding-left: 140px;
+  padding-top: 40px;
+  font-size: 2rem;
+}
+.firni{
+  display: flex;
+  padding-left: 140px;
+  padding-top: 45px;
+  font-size: 2rem;
+}
+.chicken_curry{
+  display: flex;
+  padding-left: 140px;
+  padding-top: 40px;
+  font-size: 2rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+    
+ 
+@media (max-width:650px){
+  body{
+      font-size: 70%;
+  }
+  .badge:after{
+    content:attr(value);
+    font-size:15px;
+    color: #fff;
+    background: red;
+    border-radius:50%;
+    padding: 0 5px;
+    position:relative;
+    left:-8px;
+    top:-10px;
+    opacity:1;
+    height: 30px;
+}
+.fa-lg{
+    margin-top: 20px;
+    margin-right: 10px;
+    float: right;
+  }
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+.user_name{
+float: right;
+margin-right: 5px;
+margin-left: 78px;
+}
+.banner{
+  height:220px;
+  width: 440px;
+}
+.navcontent a{
+   text-decoration: none;
+   font-size: 0.9rem;
+   justify-content: space-between;
+   
+}
+
+.user_name{
+    font-size: 1rem;
+}
+.description{
+    
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f7bb0afd;
+    position: sticky;
+    padding: 1px;
+    font-size: 0.5rem;
+     
+ }
+ .navcontent{
+   display: flex;
+   justify-content: space-between;
+   padding-left: 5px;
+ }
+ .nav_order{
+   padding-right:2px ;
+ }
+ .nav_review{
+   padding-right:2px ;
+ }
+ .nav_contact{
+   padding-right:2px ;
+ }
+.user_name{
+   float: right;
+   
+}
+
+ h1{
+    text-align: center;
+    font-size: 1rem;
+}
+ .order_food_section{
+    background-color: brown;
+    color: white;
+    padding: 0.4rem;
+  
+}
+
+.pic{
+   height: 20px;
+   width: 30px;
+}
+.btn{
+  width: 15px;
+  height:10px;
+  font-size: 1rem;
+  display: flex;
+  padding-top: 20px;
+  margin-top:45px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-left: 15px;
+  
+ }
+.int{
+  width: 10px;
+  height:20px;
+  font-size: 1rem;
+  padding-top: 20px;
+  margin-top: 30px;
+  margin-left: 3px;
+  padding-left: 5px;
+  }
+  .Chicken_Biriyani{
+    display: flex;
+  padding-left: 10px;
+    padding-right: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+  }
+  .firni{
+    display: flex;
+   padding-left: 10px;
+    margin-left: 1px;
+    font-size: 1rem;
+    margin-top: 5px;
+  }
+  .chicken_curry{
+    display: flex;
+    padding-left: 14px;
+    padding-top: 45px;
+    font-size: 1rem;
+  
+  }
+
+
+ .review_title{
+   text-align: center;
+   font-size: 0.5rem;
+   font-weight: 30;
+ }
+ .review_section {
+   background-color: #f9cedd;
+ }
+ .review1{
+   
+  margin-left: 60px;
+  margin-right: 18px;
+  justify-content: space-between;
+   display: grid;
+   
+ }
+ .review2{
+   
+  margin-left: 60px;
+  margin-right: 18px;
+   justify-content: space-between;
+   display: grid;
+ }
+ .review3{
+   
+  margin-left: 60px;
+  margin-right: 18px;
+   justify-content: space-between;
+   display: grid;
+ }
+ .review_chicken{
+   text-align: center;
+   font-size: 1rem;
+ }
+ .footer{
+   font-size: 1.5rem;
+ }
+ html{
+   scroll-behavior: smooth;
+ }
+ footer{
+   float: left;
+   margin-top: 4px;
+   margin-left: 4px;
+   margin-bottom: 2px;
+   margin-right: 2px;
+}
+}

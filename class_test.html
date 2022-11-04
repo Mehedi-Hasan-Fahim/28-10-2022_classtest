@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/a076d05399.js" crossorigin='anonymous'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="class_test.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav class="logo">
+        <img src="logo.png" height="70px" width="100px" />
+        <i class="fa badge fa-lg" value=0>&#xf07a;</i>
+    </nav>
+    <nav class="description">
+
+
+        <section class="navcontent">
+            <a href="#order" class="nav_order">Order</a>
+            <a href="#review" class="nav_review">Review</a>
+            <a href="#contact" class="nav_contact">Contact</a>
+        </section>
+        <div class="user_name">
+            <span>User Name</span>
+        </div>
+        <i class='fas fa-user-circle' style='font-size:36px'></i>
+
+    </nav>
+
+    <img class="banner" src="banner-img.png" />
+
+
+
+    <div class="order_header" id="order">
+        <h1>Order Food</h1>
+    </div>
+
+    <section class="order_food_section">
+
+        <div class="content">
+            <img src="biriyani_img.png" width="240px" height="140px" />
+
+            <div class="Chicken_Biriyani">
+
+                <span>Chicken Biriyani</span>
+            </div>
+
+            <button onclick="increment()" class="btn">+</button>
+
+            <div class="int">
+                <span>
+                    <h3 id="counting"></h3>
+                </span>
+            </div>
+
+            <button onclick="decrement()" class="btn">-</button>
+        </div>
+
+
+        </div>
+        <hr />
+        <div class="content">
+            <img src="firni_img.png" width="240px" height="140px" />
+            <div class="firni">
+                <span>Firni</span>
+            </div>
+
+            <button onclick="increment2()" class="btn">+</button>
+
+            <span>
+                <h3 id="counting2" class="int"></h3>
+            </span>
+
+
+            <button onclick="decrement2()" class="btn">-</button>
+
+
+
+        </div>
+
+        <hr />
+        <div class="content">
+            <img src="curry_img.png" width="240px" height="140px" />
+            <div class="chicken_curry">
+                <span>Chicken Curry</span>
+            </div>
+            
+            <button onclick="increment3()" class="btn">+</button>
+
+
+
+            <h3 id="counting3" class="int"></h3>
+
+
+
+            <button onclick="decrement3()" class="btn">-</button>
+
+
+
+        </div>
+
+    </section>
+
+
+    <!-- review section -->
+    <section class="review_section" id="review">
+        <h1>Review</h1>
+        <div class="review1">
+            <!--<div class="container">-->
+            <!-- <div class="row">-->
+            <div class="review_chicken">
+                <img src="chicken_curry.png" width="300px" height="200px" />
+                <p>Chicken Curry</p>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="review_chicken">
+                <img src="chicken_curry.png" width="300px" height="200px" />
+                <p>Chicken Curry</p>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="review_chicken">
+                <img src="chicken_curry.png" width="300px" height="200px" />
+                <p>Chicken Curry</p>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+        </div>
+        <div class="review2">
+            <!--<div class="container">-->
+            <!-- <div class="row">-->
+            <div class="review_chicken">
+                <img src="chicken_curry.png" width="300px" height="200px" />
+                <p>Chicken Curry</p>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="review_chicken">
+                <img src="chicken_curry.png" width="300px" height="200px" />
+                <p>Chicken Curry</p>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="review_chicken">
+                <img src="chicken_curry.png" width="300px" height="200px" />
+                <p>Chicken Curry</p>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+        </div>
+        <div class="review3">
+            <!--<div class="container">-->
+            <!-- <div class="row">-->
+            <div class="review_chicken">
+                <img src="chicken_curry.png" width="300px" height="200px" />
+                <p>Chicken Curry</p>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="review_chicken">
+                <img src="chicken_curry.png" width="300px" height="200px" />
+                <p>Chicken Curry</p>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="review_chicken">
+                <img src="chicken_curry.png" width="300px" height="200px" />
+                <p>Chicken Curry</p>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+        </div>
+
+
+
+    </section>
+
+    
+    <footer class="footer" id="contact">
+        <h4>Contact US</h4>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+        </footer>
+    
+
+
+
+
+ <script src="class_test.js"></script>
+
+
+</body>
+
+</html>
